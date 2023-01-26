@@ -15,7 +15,7 @@ print("length of statement ----> ", len(statement))
 
 
 # check string if it exists in another one
-full_name = 'Yonas Alem Atalay'
+full_name = ' Yonas Alem Atalay '
 
 if 'Yonas' in full_name:
     print("'Yes', 'Yonas ' is present in: ", full_name)
@@ -33,4 +33,4 @@ print(full_name[-5:-2])
 # modifying strings
 print(full_name.upper())  # change strings to uppercase
 print(full_name.lower())  # change strings to lowercase
-print(full_name.lower())  # remove white space before/after text
+print(full_name.strip())  # remove white space before/after text
